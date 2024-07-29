@@ -47,9 +47,10 @@
   width: 200px;
   height: 300px;
   padding: 0.2rem;
-  border: 2px solid red;
+  border: 0.5px solid bisque;
   margin: 4px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .restaurant-card:hover {
@@ -64,4 +65,14 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
+}
+.filter-btn {
+  margin: 10px;
+  padding: 4px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin: 0 1rem;
 }
